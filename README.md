@@ -1,64 +1,41 @@
-Amazon  Product Review Sentiment Analysis
-This project analyzes customer reviews of Amazon Alexa to determine the overall sentiment—whether users feel positively, negatively, or neutral about the product. It uses Python, pandas, and VADER (Valence Aware Dictionary and sEntiment Reasoner) from the NLTK library to calculate sentiment scores and visualize the results.
-
-Table of Contents
+Amazon Product Review Sentiment Analysis
 Overview
+This project analyzes customer reviews of Amazon Alexa to determine the overall sentiment — whether users feel positive, negative, or neutral about the product.
+It uses Python, pandas, and VADER (Valence Aware Dictionary and sEntiment Reasoner) from the NLTK library to calculate sentiment scores and visualize the results.
 
-Installation
+Features
+Loads customer reviews from a tab-separated file (amazon.txt)
 
-Dataset
+Uses VADER to compute sentiment polarity scores (Positive, Negative, Neutral)
 
-Usage
+Aggregates sentiment scores to find overall product sentiment
 
-Output
+Visualizes star rating distribution using a pie chart
 
-Visualization
+How It Works
+Load and preview the dataset containing customer reviews.
 
-Dependencies
+Use VADER to analyze sentiment polarity of each review.
 
- Overview
-The notebook performs the following steps:
+Count how many reviews are positive, negative, or neutral.
 
-Loads a tab-separated file (amazon.txt) of customer reviews
+Determine the overall sentiment of the product based on review sentiments.
 
-Uses VADER from NLTK to compute sentiment polarity scores (Positive, Negative, Neutral)
+Generate a pie chart visualizing the distribution of star ratings (1 to 5 stars).
 
-Aggregates the results to determine the overall product sentiment
-
-Visualizes the review ratings using a pie chart
-
-
-
-Run the Python script or Jupyter notebook.
-
-It will:
-
-Load and preview the dataset
-
-Analyze sentiment using VADER
-
-Count the number of positive, negative, and neutral reviews
-
-Determine the overall sentiment
-
-Display a pie chart of ratings
-
-Example sentiment output:
-
-text
+Example Output
+yaml
 Copy
 Edit
 Overall Sentiment: Positive
-📊 Visualization
-The notebook generates a pie chart showing the distribution of star ratings (1–5):
+Visualization
+A pie chart displays the proportion of each star rating to give a clear visual overview of customer feedback.
 
+Dependencies
+pandas — data handling
 
- Dependencies
-pandas
+matplotlib — plotting charts
 
-matplotlib
+seaborn — enhanced visualization
 
-seaborn
-
-nltk
-
+nltk — natural language processing, including VADER sentiment analysis
