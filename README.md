@@ -55,18 +55,10 @@ Positive
 ```
  project-directory
 │
-├── Amazon.txt             # Dataset (TSV format)
-├── sentiment_analysis.py  # Python script for analysis
-└── README.md              # This file
+├── Amazon.txt             
+├── sentiment_analysis.py  
+└── README.md              
 ```
-
-##  How to Run
-
-1. Clone this repository:
-
-   ```bash
-   git clone https://github.com/your-username/amazon-echo-sentiment-analysis.git
-   ```
 
 2. Navigate to the project directory:
 
